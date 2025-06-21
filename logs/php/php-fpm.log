@@ -21,3 +21,19 @@
 [21-Jun-2025 19:45:34] ERROR: FPM initialization failed
 [21-Jun-2025 19:45:35] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
 [21-Jun-2025 19:45:35] ERROR: FPM initialization failed
+[21-Jun-2025 19:50:12] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:50:12] ERROR: FPM initialization failed
+[21-Jun-2025 19:50:13] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:50:13] ERROR: FPM initialization failed
+[21-Jun-2025 19:50:13] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:50:13] ERROR: FPM initialization failed
+[21-Jun-2025 19:50:14] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:50:14] ERROR: FPM initialization failed
+[21-Jun-2025 19:52:53] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:52:53] ERROR: FPM initialization failed
+[21-Jun-2025 19:52:54] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:52:54] ERROR: FPM initialization failed
+[21-Jun-2025 19:52:55] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:52:55] ERROR: FPM initialization failed
+[21-Jun-2025 19:52:55] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[21-Jun-2025 19:52:55] ERROR: FPM initialization failed

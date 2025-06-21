@@ -1,0 +1,6 @@
+# Ignore log files
+*.log
+logs/
+log/
+git rm --cached -r logs/
+git rm --cached *.log
