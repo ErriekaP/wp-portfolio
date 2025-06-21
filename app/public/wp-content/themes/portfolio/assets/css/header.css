@@ -1,0 +1,55 @@
+.navbar {
+  background-color: var(--color-background-dark);
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-sm);
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+  margin: 1.5rem 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left .logo img {
+  height: 40px;
+}
+
+.navbar-right {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-center .nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-center .nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: var(--text-weight-semibold);
+}
+
+.navbar-right .contact-btn {
+  background: var(--bg-linear-yellow);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-primary);
+  padding: 0.75rem 2rem;
+  border-radius: var(--radius-lg);
+  font-weight: var(--text-weight-semibold);
+  font-size: var(--fs-sm);
+  text-decoration: none;
+}

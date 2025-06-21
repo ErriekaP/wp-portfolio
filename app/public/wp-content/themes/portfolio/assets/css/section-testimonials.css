@@ -1,0 +1,10 @@
+.testimonials {
+  background: var(--bg-radial-yellow);
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.testimonials-page h1 {
+  font-size: var(--fs-xxl);
+  color: var(--color-primary);
+  margin: 0;
+}

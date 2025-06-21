@@ -1,0 +1,43 @@
+.invite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  padding: 4rem 0;
+  gap: 1.5rem;
+}
+
+.invite h1 {
+  font-size: var(--fs-lg);
+  color: var(--color-background-dark);
+  margin: 0;
+}
+
+.submit-button {
+  background: var(--bg-linear-yellow);
+  padding: 1rem 5rem;
+  margin: 2.5rem 0 0 0;
+  color: var(--color-background-dark);
+}
+
+.invite-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.textbox::placeholder {
+  color: var(--color-background-dark);
+  font-family: var(--font-sans);
+}
+
+.textarea {
+  min-height: 220px;
+}
+
+.invite-form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}

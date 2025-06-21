@@ -1,0 +1,36 @@
+.services {
+  text-align: left;
+  padding: 0.5rem 2rem 2rem 2rem;
+  background: var(--bg-radial-green);
+}
+
+.services h3 {
+  font-size: var(--fs-md);
+  font-weight: var(--text-weight-light);
+  color: var(--color-primary);
+}
+
+.services h1 {
+  font-size: var(--fs-lg);
+  font-weight: var(--text-weight-medium);
+  color: var(--color-primary);
+}
+
+.services p {
+  font-size: var(--fs-base);
+  font-weight: var(--text-weight-light);
+  color: var(--color-primary);
+}
+
+.services .custom-hr {
+  width: 100%;
+  height: 2px;
+}
+
+.services .container {
+  gap: 2rem;
+}
+
+.services-content {
+  width: 50%;
+}

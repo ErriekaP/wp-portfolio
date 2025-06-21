@@ -1,0 +1,114 @@
+/*
+Theme Name: Custom Portfolio Theme
+Author: Errieka Palanca
+Version: 1.0
+Description: A starter WordPress theme.
+*/
+
+:root {
+  /* 🎨 Colors */
+  --color-primary: #fbfbe4;
+  --color-secondary: #f15d3b;
+  --color-secondary-dark: #ec4427;
+  --color-accent: #ffd911;
+  --color-accent-dark: #f5a817;
+  --color-background: #225a5e;
+  --color-background-dark: #034f62;
+  --color-muted: #888888;
+
+  /* 🖋 Font Families */
+  --font-sans: "Kanit", sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* 🔠 Font Sizes */
+  --fs-xs: 0.75rem; /* 12px */
+  --fs-sm: 0.875rem; /* 14px */
+  --fs-base: 1rem; /* 16px */
+  --fs-md: 1.5rem; /* 24px */
+  --fs-lg: 3.5rem; /* 56px */
+  --fs-xl: 5rem; /* 85px */
+  --fs-xxl: 6rem; /* 100px */
+
+  /* 🌫️ Text Opacity Levels */
+  --text-opacity-100: 1;
+  --text-opacity-80: 0.8;
+  --text-opacity-60: 0.6;
+  --text-opacity-40: 0.4;
+  --text-opacity-20: 0.2;
+
+  /* 🌫️ Text Weight Levels */
+  --text-weight-light: 200;
+  --text-weight-medium: 300;
+  --text-weight-semibold: 600;
+  --text-weight-bold: 700;
+
+  /* 🌫️ Shadow Levels */
+  --shadow-sm: 0 5px 5px rgba(0, 0, 0, 0.377);
+
+  /* 🌈 Radial Gradient Backgrounds */
+  --bg-radial-orange: radial-gradient(
+    circle at center,
+    #ec4427 0%,
+    #f15d3b 100%
+  );
+  --bg-radial-yellow: radial-gradient(
+    circle at center,
+    #ffd911 1%,
+    #fac114 36%,
+    #f5a817 80%
+  );
+
+  --bg-linear-yellow: linear-gradient(180deg, #ffd911 28%, #f5a817 100%);
+  --bg-linear-orange: linear-gradient(180deg, #f15d3b 28%, #ec4427 100%);
+
+  --bg-radial-green: radial-gradient(
+    circle at center,
+    #225a5e 45%,
+    #034f62 100%
+  );
+
+  /*  Radius */
+  --radius-xs: 5px;
+  --radius-sm: 10px;
+  --radius-base: 16px;
+  --radius-lg: 40px;
+}
+
+body {
+  margin: 0px;
+  transition: padding-top 0.3s ease;
+  font-family: var(--font-sans);
+  background: var(--bg-radial-orange);
+}
+
+.custom-hr {
+  border: none;
+  width: 2px;
+  height: 40px;
+  background-color: #d9d9d9;
+  margin: 2rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: var(--bg-linear-yellow);
+  color: white;
+  border-radius: var(--radius-lg);
+  font-size: var(--fs-md);
+  text-decoration: none;
+  font-weight: var(--text-weight-semibold);
+  box-shadow: var(--shadow-sm);
+}
+
+.textbox {
+  height: 100%;
+  min-width: 385px;
+  padding: 1.5rem 1.5rem;
+  font-size: var(--fs-md);
+  font-weight: var(--text-weight-bold);
+  border: 0.2rem solid var(--color-background);
+  border-radius: var(--radius-base);
+  background-color: #d9d9d9;
+  box-sizing: border-box;
+}

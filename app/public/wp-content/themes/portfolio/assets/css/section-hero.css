@@ -1,0 +1,42 @@
+.hero {
+  text-align: left;
+  margin: 1.5rem 2rem 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: var(--fs-xxl);
+  margin: 0;
+  padding-top: 1.5rem;
+  color: var(--color-primary);
+  text-shadow: var(--shadow-sm);
+}
+
+.hero h2 {
+  font-size: var(--fs-lg);
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.hero p {
+  font-size: var(--fs-md);
+  color: var(--color-primary);
+  font-weight: var(--text-weight-light);
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--bg-linear-yellow);
+  color: white;
+  border-radius: var(--radius-lg);
+  font-size: var(--fs-md);
+  text-decoration: none;
+  font-weight: var(--text-weight-bold);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn:hover {
+  background: #005f8a;
+}
