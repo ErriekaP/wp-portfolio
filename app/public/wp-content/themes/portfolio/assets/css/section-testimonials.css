@@ -8,3 +8,11 @@
   color: var(--color-primary);
   margin: 0;
 }
+
+.company-stack {
+  padding: 1.5rem 0;
+}
+
+.company-stack .marquee-text p {
+  color: var(--color-primary);
+}

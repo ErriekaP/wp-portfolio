@@ -17,11 +17,31 @@
         <h4>Copyright © <?php the_field('current_year'); ?></h4>
     </div>
     <div class="icons">
-        <img src="<?php the_field('gmail_icon'); ?>" alt="<?php the_field('gmail'); ?>">
-        <img src="<?php the_field('linkedin_icon'); ?>" alt="<?php the_field('linkedin'); ?>">
-        <img src="<?php the_field('github_icon'); ?>" alt="<?php the_field('github'); ?>">
-        <img src="<?php the_field('leetcode_icon'); ?>" alt="<?php the_field('leetcode'); ?>">
+        <?php if ($gmail = get_field('gmail_link')): ?>
+            <a href="mailto:<?php echo esc_attr($gmail); ?>" target="_blank" rel="noopener">
+                <img src="<?php the_field('gmail_icon'); ?>" alt="Gmail">
+            </a>
+        <?php endif; ?>
+
+        <?php if ($linkedin = get_field('linkedin_link')): ?>
+            <a href="<?php echo esc_url($linkedin); ?>" target="_blank" rel="noopener">
+                <img src="<?php the_field('linkedin_icon'); ?>" alt="LinkedIn">
+            </a>
+        <?php endif; ?>
+
+        <?php if ($github = get_field('github_link')): ?>
+            <a href="<?php echo esc_url($github); ?>" target="_blank" rel="noopener">
+                <img src="<?php the_field('github_icon'); ?>" alt="GitHub">
+            </a>
+        <?php endif; ?>
+
+        <?php if ($leetcode = get_field('leetcode_link')): ?>
+            <a href="<?php echo esc_url($leetcode); ?>" target="_blank" rel="noopener">
+                <img src="<?php the_field('leetcode_icon'); ?>" alt="LeetCode">
+            </a>
+        <?php endif; ?>
     </div>
+
 </div>
 
 </body>

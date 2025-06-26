@@ -9,3 +9,267 @@
 [21-Jun-2025 03:09:51 UTC] PHP Fatal error:  Cannot redeclare sla_scroll_markup() (previously declared in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/scroll-left-animator/scroll-left-animator.php:15) in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/scroll-left-animator/scroll-left-animator.php on line 34
 [21-Jun-2025 03:39:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/class-wp-query.php on line 834
 [21-Jun-2025 03:39:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php on line 616
+[25-Jun-2025 09:46:54 UTC] PHP Warning:  Undefined variable $image_url in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 23
+[25-Jun-2025 09:49:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:27
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 27
+[25-Jun-2025 09:50:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:32
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 32
+[25-Jun-2025 09:51:27 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:34
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 34
+[25-Jun-2025 09:52:39 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:33
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 33
+[25-Jun-2025 09:53:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:27
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 27
+[25-Jun-2025 09:54:09 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:32
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 32
+[25-Jun-2025 09:54:31 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:32
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 32
+[25-Jun-2025 09:55:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:30
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 30
+[25-Jun-2025 09:56:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:30
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 30
+[25-Jun-2025 09:56:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:30
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 30
+[25-Jun-2025 09:56:04 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:30
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 30
+[25-Jun-2025 09:56:41 UTC] PHP Warning:  Undefined variable $post_id in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 21
+[25-Jun-2025 09:56:41 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:28
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 28
+[25-Jun-2025 09:57:06 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php:28
+Stack trace:
+#0 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(434): horizontal_scroll_shortcode(Array, '', 'horizontal_scro...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(horizo...', 'do_shortcode_ta...', '[horizontal_scr...')
+#3 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/sections/the-gist.php(126): do_shortcode('[horizontal_scr...')
+#4 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(812): require('/Users/erriekap...')
+#5 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template.php(745): load_template('/Users/erriekap...', false, Array)
+#6 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#7 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/front-page.php(9): get_template_part('sections/the-gi...')
+#8 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-includes/template-loader.php(106): include('/Users/erriekap...')
+#9 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-blog-header.php(19): require_once('/Users/erriekap...')
+#10 /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/index.php(17): require('/Users/erriekap...')
+#11 {main}
+  thrown in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/plugins/vertical-step-scroll/vertical-step-scroll.php on line 28
+[25-Jun-2025 13:01:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 39
+[26-Jun-2025 02:38:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:39:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:40:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:51:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:53:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:54:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:55:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:56:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:57:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:58:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 02:59:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:00:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:01:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:03:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:05:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:07:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:08:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:09:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:11:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:15:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:15:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:16:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:18:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:18:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:20:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:20:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:21:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:22:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:25:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:27:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 40
+[26-Jun-2025 03:28:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:29:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:30:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:31:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:32:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:34:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:35:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:36:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:40:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:42:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:43:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:44:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:45:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:46:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:47:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:48:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:49:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:51:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:52:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:53:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:54:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:55:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 03:57:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:25:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:26:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:27:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:28:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:29:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:30:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:31:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:32:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:33:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:35:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:36:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:37:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52
+[26-Jun-2025 04:39:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Users/erriekapalanca/Local Sites/erriekapalancacom/app/public/wp-content/themes/portfolio/functions.php on line 52

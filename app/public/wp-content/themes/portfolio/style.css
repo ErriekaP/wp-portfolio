@@ -98,6 +98,7 @@ body {
   font-size: var(--fs-md);
   text-decoration: none;
   font-weight: var(--text-weight-semibold);
+  font-family: var(--font-sans);
   box-shadow: var(--shadow-sm);
 }
 
@@ -107,8 +108,20 @@ body {
   padding: 1.5rem 1.5rem;
   font-size: var(--fs-md);
   font-weight: var(--text-weight-bold);
+  font-family: var(--font-sans);
+  color: var(--color-background-dark);
   border: 0.2rem solid var(--color-background);
   border-radius: var(--radius-base);
   background-color: #d9d9d9;
   box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0px 1000px #d9d9d9 inset !important;
+  -webkit-text-fill-color: var(--color-background-dark) !important;
+  font-family: var(--font-sans) !important;
+  transition: background-color 9999s ease-in-out 0s;
 }

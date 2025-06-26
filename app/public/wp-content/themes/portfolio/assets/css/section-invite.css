@@ -19,6 +19,7 @@
   padding: 1rem 5rem;
   margin: 2.5rem 0 0 0;
   color: var(--color-background-dark);
+  border: none;
 }
 
 .invite-form {
@@ -28,7 +29,7 @@
 }
 
 .textbox::placeholder {
-  color: var(--color-background-dark);
+  color: #034f62b7;
   font-family: var(--font-sans);
 }
 
@@ -40,4 +41,40 @@
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
+}
+
+.btns {
+  display: flex;
+  justify-self: center;
+}
+
+/* Toaster */
+
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.toast-success {
+  background-color: #4caf50;
+}
+.toast-error {
+  background-color: #f44336;
+}
+.toast-warning {
+  background-color: var(--color-background-dark);
+}
+
+.toast-container span {
+  padding-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
 }

@@ -37,3 +37,11 @@
 [21-Jun-2025 19:52:55] ERROR: FPM initialization failed
 [21-Jun-2025 19:52:55] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
 [21-Jun-2025 19:52:55] ERROR: FPM initialization failed
+[25-Jun-2025 17:17:53] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[25-Jun-2025 17:17:53] ERROR: FPM initialization failed
+[25-Jun-2025 17:17:54] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[25-Jun-2025 17:17:54] ERROR: FPM initialization failed
+[25-Jun-2025 17:17:55] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[25-Jun-2025 17:17:55] ERROR: FPM initialization failed
+[25-Jun-2025 17:17:55] ERROR: Another FPM instance seems to already listen on /Users/erriekapalanca/Library/Application Support/Local/run/4Ijg275qT/php/php-fpm.socket
+[25-Jun-2025 17:17:55] ERROR: FPM initialization failed
